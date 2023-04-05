@@ -4,7 +4,7 @@
   "description": "Chat AX",
   "main": "index.js",
   "scripts": {
-    "start-dev": "nodemon -e ts,json src/serve.ts",
+    "start": "nodemon -e ts,json src/serve.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexsandro Gomes Clemente",
