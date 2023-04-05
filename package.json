@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Chat AX",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
+    "start" : "node puclic/server.js",
     "start-dev": "nodemon -e ts,json src/serve.ts",
-    "start": "public/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexsandro Gomes Clemente",
