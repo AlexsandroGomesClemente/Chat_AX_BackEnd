@@ -1,0 +1,26 @@
+{
+  "name": "chat_ax",
+  "version": "1.0.0",
+  "description": "Chat AX",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon -e ts,json src/serve.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexsandro Gomes Clemente",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^18.15.11"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/sequelize": "^4.28.14",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0",
+    "socket.io": "^4.6.1"
+  }
+}
